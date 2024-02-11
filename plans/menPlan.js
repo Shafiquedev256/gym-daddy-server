@@ -50,7 +50,16 @@ const fullBodyWorkout = [
   { exercise: "Pull-Ups", tool: "Pull-Up Bar", safetyTips: "Engage core and avoid swinging for momentum." },
   { exercise: "Overhead Press", tool: "Barbell/Dumbbells", safetyTips: "Keep back straight and avoid arching excessively." },
   { exercise: "Plank", tool: "Bodyweight", safetyTips: "Maintain a straight line from head to heels and engage core throughout." }
-];
+]; 
+
+cont allMenworkouts = {
+  chest:chestWorkout,
+  arms:armsWorkout,
+  abs:absWorkout,
+  legs: legsWorkout,
+  back: backWorkout,
+  fullbody:fullBodyWorkout
+}
 
 // Export all workout plans
 module.exports = {
@@ -59,5 +68,6 @@ module.exports = {
   absWorkout,
   legsWorkout,
   backWorkout,
-  fullBodyWorkout
+  fullBodyWorkout,
+  allMenworkouts
 };
