@@ -52,7 +52,7 @@ const fullBodyWorkout = [
   { exercise: "Plank", tool: "Bodyweight", safetyTips: "Maintain a straight line from head to heels and engage core throughout." }
 ]; 
 
-cont allMenworkouts = {
+const allMenworkouts = {
   chest:chestWorkout,
   arms:armsWorkout,
   abs:absWorkout,
